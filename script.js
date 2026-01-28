@@ -3,7 +3,6 @@ const total = document.getElementById('total');
 
 options.forEach(option => {
   option.addEventListener('click', (e) => {
-    // Prevent clicks on dropdowns from re-triggering
     if (e.target.tagName === 'SELECT') return;
 
     options.forEach(o => {
@@ -17,3 +16,4 @@ options.forEach(option => {
     total.textContent = `$${option.dataset.price}.00 USD`;
   });
 });
+
