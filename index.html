@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>BOGO Offer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div class="frame">
+
+  <!-- TITLE -->
+  <div class="bogo-title">
+    YAY! It’s BOGO
+  </div>
+
+  <!-- OPTIONS -->
+  <div class="bogo-options">
+
+    <!-- UNIT 1 -->
+    <div class="option" data-price="10">
+      <div class="option-header">
+        <input type="radio" name="plan">
+        <div class="unit-text">
+          <strong>1 Unit</strong>
+          <span class="badge">10% Off</span>
+          <div class="sub">Standard Price</div>
+        </div>
+        <div class="price">
+          <strong>$10.00 USD</strong><br />
+          <del>$24.00 USD</del>
+        </div>
+      </div>
+
+      <!-- EXPANDABLE -->
+      <div class="variants">
+        <div class="variants-head">
+          <span></span>
+          <span>Size</span>
+          <span>Colour</span>
+        </div>
+
+        <div class="variant-row">
+          <span>#1</span>
+          <select>
+            <option>S</option>
+            <option>M</option>
+            <option>L</option>
+          </select>
+          <select>
+            <option>Black</option>
+            <option>White</option>
+          </select>
+        </div>
+
+        <div class="variant-row">
+          <span>#2</span>
+          <select>
+            <option>S</option>
+            <option>M</option>
+            <option>L</option>
+          </select>
+          <select>
+            <option>Black</option>
+            <option>White</option>
+          </select>
+        </div>
+      </div>
+    </div>
+
+    <!-- UNIT 2 -->
+    <div class="option active" data-price="18">
+      <div class="popular">MOST POPULAR</div>
+
+      <div class="option-header">
+        <input type="radio" name="plan" checked>
+        <div class="unit-text">
+          <strong>2 Unit</strong>
+          <span class="badge">20% Off</span>
+        </div>
+        <div class="price">
+          <strong>$18.00 USD</strong><br />
+          <del>$24.00 USD</del>
+        </div>
+      </div>
+
+      <!-- EXPANDABLE -->
+      <div class="variants">
+        <div class="variants-head">
+          <span></span>
+          <span>Size</span>
+          <span>Colour</span>
+        </div>
+
+        <div class="variant-row">
+          <span>#1</span>
+          <select>
+            <option>S</option>
+            <option>M</option>
+            <option>L</option>
+          </select>
+          <select>
+            <option>Black</option>
+            <option>White</option>
+          </select>
+        </div>
+
+        <div class="variant-row">
+          <span>#2</span>
+          <select>
+            <option>S</option>
+            <option>M</option>
+            <option>L</option>
+          </select>
+          <select>
+            <option>Colour</option>
+            <option>Black</option>
+          </select>
+        </div>
+      </div>
+    </div>
+
+    <!-- UNIT 3 -->
+    <div class="option" data-price="24">
+      <div class="option-header">
+        <input type="radio" name="plan">
+        <div class="unit-text">
+          <strong>3 Unit</strong>
+          <span class="badge">30% Off</span>
+        </div>
+        <div class="price">
+          <strong>$24.00 USD</strong><br />
+          <del>$24.00 USD</del>
+        </div>
+      </div>
+
+      <!-- EXPANDABLE -->
+      <div class="variants">
+        <div class="variants-head">
+          <span></span>
+          <span>Size</span>
+          <span>Colour</span>
+        </div>
+
+        <div class="variant-row">
+          <span>#1</span>
+          <select>
+            <option>S</option>
+            <option>M</option>
+            <option>L</option>
+          </select>
+          <select>
+            <option>Black</option>
+            <option>White</option>
+          </select>
+        </div>
+
+        <div class="variant-row">
+          <span>#2</span>
+          <select>
+            <option>S</option>
+            <option>M</option>
+            <option>L</option>
+          </select>
+          <select>
+            <option>Black</option>
+            <option>White</option>
+          </select>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- SUMMARY -->
+  <div class="summary">
+    <span class="free">Free Delivery</span>
+    <span class="total">Total : <strong id="total">$18.00 USD</strong></span>
+  </div>
+
+  <!-- CTA -->
+  <button class="add-cart">＋ Add to Cart</button>
+  <div class="powered">@ Powered by Pumper</div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
